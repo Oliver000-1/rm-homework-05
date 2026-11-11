@@ -1,0 +1,90 @@
+%YAML:1.0
+---
+image_width: 1440
+image_height: 1080
+camera_serial: "00L28498186"
+roi_offset_x: 0
+roi_offset_y: 0
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 2.4520982487423935e+03, 0., 7.8158539866463491e+02, 0.,
+       2.5283200766905784e+03, 4.9715995454160856e+02, 0., 0., 1. ]
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ -5.8079556314134806e-01, 4.1687916164619745e+00,
+       -2.1542680806253569e-02, -2.2380553756957355e-02,
+       -1.3292482984667023e+01 ]
+inner_columns: 9
+inner_rows: 6
+square_mm: 26.
+fit_rms_px: 6.5208287600016679e-01
+validation_rms_px: 6.7636697834868120e-01
+fit_images:
+   -
+      file: "chessboard-001.png"
+      rms_px: 6.4202750104999518e-01
+   -
+      file: "chessboard-002.png"
+      rms_px: 6.6782962374672450e-01
+   -
+      file: "chessboard-003.png"
+      rms_px: 6.5122889148274998e-01
+   -
+      file: "chessboard-004.png"
+      rms_px: 7.6186086520225138e-01
+   -
+      file: "chessboard-006.png"
+      rms_px: 7.3345000192355247e-01
+   -
+      file: "chessboard-007.png"
+      rms_px: 7.0642326014496859e-01
+   -
+      file: "chessboard-008.png"
+      rms_px: 7.2847467323389581e-01
+   -
+      file: "chessboard-009.png"
+      rms_px: 7.1611094816415244e-01
+   -
+      file: "chessboard-011.png"
+      rms_px: 7.4757788421533378e-01
+   -
+      file: "chessboard-012.png"
+      rms_px: 7.1535936179602022e-01
+   -
+      file: "chessboard-015.png"
+      rms_px: 3.7623808379719853e-01
+   -
+      file: "chessboard-016.png"
+      rms_px: 6.4595756310126862e-01
+   -
+      file: "chessboard-018.png"
+      rms_px: 6.4685418586998034e-01
+   -
+      file: "chessboard-019.png"
+      rms_px: 6.0749904127037779e-01
+   -
+      file: "chessboard-020.png"
+      rms_px: 5.8402576973319020e-01
+   -
+      file: "chessboard-021.png"
+      rms_px: 5.1084471775451701e-01
+   -
+      file: "chessboard-023.png"
+      rms_px: 5.1619158481389771e-01
+validation_images:
+   -
+      file: "chessboard-005.png"
+      rms_px: 7.4868919306144033e-01
+   -
+      file: "chessboard-010.png"
+      rms_px: 7.6118659200208216e-01
+   -
+      file: "chessboard-017.png"
+      rms_px: 6.1134876666667182e-01
+   -
+      file: "chessboard-022.png"
+      rms_px: 5.6231779933282044e-01

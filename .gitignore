@@ -1,0 +1,9 @@
+build*/
+outputs/
+Ultralytics/
+third_party/onnxruntime-linux-x64-1.31.0/
+*.o
+*.obj
+*.exe
+*.dll
+.DS_Store
